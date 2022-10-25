@@ -1,0 +1,30 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+span{
+    color: pink;
+    font-weight: bold;
+}
+
+p{
+    text-align: left;
+    font-size:  10px;
+    font-family: sans-serif;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+div{
+    height: 500px;
+    width: 500px;
+    background-color: pink;
+}
+
+img{
+    width: 450px;
+    height: 450px;
+    margin: 25px;
+    
+}

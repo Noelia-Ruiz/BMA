@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+
+#comentarios{
+    border: 1px solid red;
+
+}
+
+#texto{
+    border: 2px solid green;
+}
+
+#input{
+    border-radius: 5px;
+    color: red;
+    background-color: rgb(97, 249, 83);
+    font-size: 1.3rem;
+    
+}
+
+.navidad{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form{
+    margin-left: 50px;
+    color: green;
+}
+
+.form input{
+    color: green;
+    border: 2px solid green;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgb(134, 246, 134);
+    color: red;
+    font-family: 'Akaya Telivigala', cursive;
+    font-weight: 200;
+    font-size: 22px;
+}

@@ -6,14 +6,12 @@ body{
 
 #bienvenida{
     display: flex;
-    justify-content: space-evenly;
-    align-items: baseline;
+    justify-content: center;
     padding: 10px;
-    background-color: orchid;
+    background-color: rgb(8, 151, 63);
     /*background-color: pink;*/
     
 }
-
 
 .bienvenida{
     height: 200px;
@@ -24,15 +22,23 @@ body{
     margin-top: 20px ;
 }
 
-.bienvenida p{
-    padding-top: 40px;
+.bienvenida h3{
+    color: #fff;
+    font-size: 1.2rem;
     text-align: center;
-    font-size: 1.1rem;
+    margin-top: 70px;
+}
+
+.bienvenida p{
+    padding-top: 30px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
 .items{
-    margin-top: 40px;
+    color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -53,6 +59,10 @@ header{
     padding: 10px, 20px;
 }
 
+main{
+    background-image:url(https://img.freepik.com/vector-gratis/fondo-pirotecnia-fuegos-artificiales-animacion-negro_1284-54175.jpg);
+
+}
 .links_navegacion{
     display: flex;
     gap: 25px;
@@ -63,7 +73,7 @@ header{
 }
 
 .links_navegacion li a {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .links_navegacion li a:hover {
@@ -71,24 +81,35 @@ header{
     color: black;
     font-weight: 600;
     background-color: pink;
+    border-radius: 5px;
+    padding: 7px;
     font-size: 1.5rem;
 }
 
 .titulo{
     display: flex;
     justify-content: center;
-    background-color: rgb(22, 249, 22);
 }
 
+.titulo h1{
+    color: #fff;
+    margin-left: 200px;
+    margin-top: 210px;
+}
 .parrafo {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    background-color: red;
+    color:#fff;
+    text-shadow: black;
 }
 
 .parrafo p{
-    font-size: 20px;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    font-size: 22px;
     font-weight: 300;
     text-align: center;
     font-family: 'Akaya Telivigala', cursive;
@@ -96,8 +117,9 @@ header{
 
 
 span{
-    color: lightblue;
+    color: rgb(221, 30, 33);
     font-weight: bold;
+    margin: 7px;
 }
 
 p{
@@ -109,8 +131,8 @@ p{
 }
 
 .perrito img{
-    margin-left: 70px ;
-    transition: 0.3s ease;
+    margin: 7px ;
+    border: 5px solid #fff;
 }
 
 .perrito h3{
@@ -119,14 +141,24 @@ p{
 
 .perrito img:hover{
     transform: scale(1.1);
-    border: 15px solid lightblue;
+    border: 5px solid rgba(243, 70, 1, 0.935);
     margin-left: 10px;
 }
+
 
 article h3{
     font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
+    text-decoration-line: underline;
+}
+
+article div p{
+    color: rgb(6, 89, 20);
+}
+
+article div p a{
+    color: red;
 }
 
 .link{

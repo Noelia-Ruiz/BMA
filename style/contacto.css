@@ -2,7 +2,7 @@
 
 
 #comentarios{
-    border: 2px solid black;
+    border: 2px solid rgb(35, 235, 62);
 }
 
 #texto{
@@ -10,18 +10,30 @@
 }
 
 #input{
+    align-self: flex-start;
+    margin-top: 0;
+    margin-left: 96px;
     border-radius: 5px;
     color: red;
     background-color: rgb(97, 249, 83);
     font-size: 1.3rem;
 }
 
+.form form label{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: red;
+}
+
+.botones{
+    display: flex;
+}
 #comentario{
     font-size: 1.2rem;
 }
 
 #borrar{
-    margin-left: 10px;
+    display: flex;
     border-radius: 5px;
     color: red;
     background-color: rgb(97, 249, 83);
@@ -38,24 +50,35 @@
     padding: 10px;
     display: flex;
     flex-direction: column;
-    height: 500px;
+    height: 300px;
+}
+
+#section{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+section div img{
+    margin: 50px;
 }
 
 .form{
+    display: flex;
+    padding-top: 70px;
     margin-left: 50px;
     color: green;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 .form input{
+    font-size: 1.2rem;
     color: green;
+    border-radius: 15px;
     border: 2px solid green;
 }
 
-.comentarios{
-    background-color: rgb(233, 144, 144);
-    padding: 5px;
-    border: 5px solid black;
-}
 p{
     display: flex;
     justify-content: center;
